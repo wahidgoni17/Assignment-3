@@ -1,0 +1,41 @@
+.px{
+    padding-left: 130px !important;
+}
+.py{
+    padding-top: 130px;
+    padding-bottom: 180px;
+}
+.pad-nav{
+    padding-left: 130px!important;
+    padding-right: 100px!important;
+}
+.bg{
+    background-image: url(../images/Rectangle\ 5.png), url(../images/banner.png);
+    border-radius: 8px;
+}
+.fs{
+    font-size: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p-text{
+    color: #E7E7E7;
+}
+.btn-primary{
+    background-color: #B68C5A;
+    border: none;
+}
+@media screen and (max-width: 576px) {
+    .px{
+        padding-left: 75px !important;
+    } 
+    .bg{
+        width: 100%;
+    }
+    .py{
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+    .fs{
+        font-size: 32px;
+    }
+}
